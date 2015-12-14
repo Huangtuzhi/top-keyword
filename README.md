@@ -8,7 +8,9 @@ Extract hot keywords of questions on Zhihu and make some use of these words.
 ## 步骤
 
 ```
-MySQL 数据库 question 表导出为 question.txt ——> 使用 Jieba 分词 ——> 存储分词结果 ——> Spark 进行词频统计 ——> 排序选出 Top 10 ——> 做一些 ML 的预测
+MySQL 数据库 question 表导出为 question.txt ——> 使用 Jieba 分词 ——> 
+
+存储分词结果 ——> Spark 进行词频统计 ——> 排序选出 Top 10 ——> 做一些 ML 的预测
 ```
 
 ## 目录结构
